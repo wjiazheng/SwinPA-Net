@@ -5,8 +5,8 @@ The code for the work [SwinPA-Net: Swin Transformer-Based Multiscale Feature Pyr
 ### 1. Environment
 Please prepare an virtual environment with Python 3.6, and then use the command "pip install -r requirements.txt" for the dependencies.
 
-### 2. dataset
-Polyp datasets: we adopted the division method in [PraNet](https://github.com/DengPingFan/PraNet)  
+### 2. Dataset
+Polyp datasets - we adopted the division method in [PraNet](https://github.com/DengPingFan/PraNet)  
 [ISIC 2018 dataset](https://challenge.isic-archive.com/data/)
 
 ### 3. Pre-trained swin transformer model
@@ -14,7 +14,6 @@ The Pretrained models on ImageNet-1K ([Swin-T-IN1K](https://github.com/SwinTrans
 
 ### 4. Train
 python3 Train.py
-
 
 ### 5. Test
 python3 Test.py
